@@ -24,14 +24,14 @@ Some of the pictures below are visual representations of the simulations created
 
 Yellow dots in the electron beam show step points used by Geant4.
 
-Screenshot from 2017-11-13 11-08-27
+![image](https://user-images.githubusercontent.com/111601247/185682446-1ef7dd1a-32ea-4ac4-9161-47f1fffcb595.png)
 
-Sim_picture
+![image](https://user-images.githubusercontent.com/111601247/185682500-c6c094b1-0e40-40ee-b79e-2ab6754b6af4.png)
 
-TotalWaterEnergy
+![image](https://user-images.githubusercontent.com/111601247/185682613-efce91f3-3817-4b6c-bd0d-e3d541032925.png)
 
 TotalWaterEnergy: Shows the amount of energy each individual particle (from the electron beam) deposited into the water detectors (white voxeled square).
 
-WaterHitDet
+![image](https://user-images.githubusercontent.com/111601247/185682655-5a4c2367-4900-4e51-92b3-1d9b4f651b19.png)
 
 WaterHitDet: Shows which voxel the electron from the beam hit. The voxels are numbered from 0 to 99. They start from the top row, then left to right, then second row, left to right, and so on.
