@@ -12,7 +12,7 @@ PrimaryGeneratorAction is where we implement the electron beam and any secondary
 
 DetectorConstrunction is where we build the world box that holds the physics, detectors, tungsten plates, etc.
 
-Script_Leaf_Analysis is where we analyze the data, utilizing ROOT, after the simulation is done. This produces the histograms TotalWaterEnergy and WaterHitDet listed below or in the 'Images' Folder.
+Script_Leaf_Analysis is where we analyze the data, utilizing ROOT, after the simulation is done. This produces the histograms TotalWaterEnergy and WaterHitDet listed below.
 
 Some of the pictures below are visual representations of the simulations created by Geant4.
 
@@ -24,14 +24,14 @@ Some of the pictures below are visual representations of the simulations created
 
 Yellow dots in the electron beam show step points used by Geant4.
 
-![image](https://user-images.githubusercontent.com/111601247/185682446-1ef7dd1a-32ea-4ac4-9161-47f1fffcb595.png)
+![Screenshot from 2017-11-13 11-08-27](https://user-images.githubusercontent.com/111601247/185709933-d8467415-40f2-4701-9b34-a645d6e52e28.png)
 
-![image](https://user-images.githubusercontent.com/111601247/185682500-c6c094b1-0e40-40ee-b79e-2ab6754b6af4.png)
+![Sim_picture](https://user-images.githubusercontent.com/111601247/185709940-cb5a2500-7026-44e0-9454-1122170ba7aa.png)
 
-![image](https://user-images.githubusercontent.com/111601247/185682613-efce91f3-3817-4b6c-bd0d-e3d541032925.png)
+![TotalWaterEnergy](https://user-images.githubusercontent.com/111601247/185709969-f49fe032-04fe-46be-88ca-4857e768c4a1.png)
 
 TotalWaterEnergy: Shows the amount of energy each individual particle (from the electron beam) deposited into the water detectors (white voxeled square).
 
-![image](https://user-images.githubusercontent.com/111601247/185682655-5a4c2367-4900-4e51-92b3-1d9b4f651b19.png)
+![WaterHitDet](https://user-images.githubusercontent.com/111601247/185709989-ed2d1beb-7511-4f53-9873-e9805f15950c.png)
 
 WaterHitDet: Shows which voxel the electron from the beam hit. The voxels are numbered from 0 to 99. They start from the top row, then left to right, then second row, left to right, and so on.
