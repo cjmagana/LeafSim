@@ -8,10 +8,6 @@ Specifically, we have a 10 MeV electron beam hitting two types of targets, a CsI
 
 The goal is to measure radiation dosage in these voxels based off of the position of these tungsten plates.
 
-PrimaryGeneratorAction is where we implement the electron beam and any secondary particles.
-
-DetectorConstrunction is where we build the world box that holds the physics, detectors, tungsten plates, etc.
-
 Script_Leaf_Analysis is where we analyze the data, utilizing ROOT, after the simulation is done. This produces the histograms TotalWaterEnergy and WaterHitDet listed below.
 
 Some of the pictures below are visual representations of the simulations created by Geant4.
